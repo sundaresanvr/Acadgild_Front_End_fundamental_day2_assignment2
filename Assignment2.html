@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Design a HTML5 Form</title>
+		<meta name="description" content="Design a HTML5 Form">
+		<meta name="author" content="Sundaresan">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+	</head>
+
+	<body>
+		<div>
+			<header>
+				<h1>This is an example for designing Forms in HTML5</h1>
+			</header>
+			<nav>
+
+			</nav>
+
+			<section>
+				<!-- Designing a form with 2 Field Sets -->
+				<form>
+
+					<!-- Field set 1 : User name and Contact Details -->
+					<fieldset>
+						<legend>
+							Your Details
+						</legend>
+						<label for="name">Name :</label>
+						<input id="name">
+						<br />
+
+						<label for="user-email">Email :</label>
+						<input id="user-email">
+					</fieldset>
+					<br />
+
+					<!-- Field set 2 : Your Review -->
+					<fieldset>
+						<legend>
+							Your Review
+						</legend>
+
+						How did you hear about us?
+						<select name="Channel">
+							<option value="Google">Google</option>
+							<option value="Company Website">Company Website</option>
+							<option value="FaceBook">FaceBook</option>
+							<option value="News Paper">News Paper</option>
+						</select>
+						<br />
+						<br />
+						<legend>
+							Would you Visit us again?
+						</legend>
+						<input type="radio" name="vistUs" value="Yes" />
+						Yes
+
+						<input type="radio" name="vistUs" value="No" />
+						No
+
+						<input type="radio" name="vistUs" value="Maybe" />
+						Maybe
+
+						<br />
+						<br />
+						<legend>
+							Comments:
+						</legend>
+						<textarea cols="50" rows="7"></textarea>
+						<br />
+
+						<br />
+						<input type="checkbox" name="signmeEmail" value="signmeEmail" />
+						Sign me up for email updates
+						<br />
+
+						<input type="button" onclick="alert('Review Submitted')" value="Submit Review">
+					</fieldset>
+
+				</form>
+
+			</section>
+
+			<footer>
+				<p>
+					&copy; Copyright  by Sundaresan
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
